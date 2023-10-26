@@ -15,7 +15,7 @@ const App = () => {
         <h2 className="h2">{people.length} persons have birthday today</h2>
         <List people={people} />
         <button type="button" onClick={handleClick}>
-          Clear <All></All>
+          Clear All
         </button>
       </section>
     </main>
