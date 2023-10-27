@@ -6,7 +6,7 @@ const ShortCircuitExamples = () => {
   // truthy
   const [name, setName] = useState("susan");
   const [user, setUser] = useState({ name: "john" });
-  const [isEditing, setIsEditing] = useState(false);
+  const [isEditing, setIsEditing] = useState(true);
 
   return (
     <div>
@@ -22,7 +22,7 @@ const ShortCircuitExamples = () => {
         </div>
       ) : (
         <div>
-          <h2> please Login</h2>
+          <h2> please Login </h2>
         </div>
       )}
     </div>
